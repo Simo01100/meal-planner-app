@@ -19,7 +19,7 @@ export async function POST(request) {
         'Content-Type': 'application/json',
       },
       body: JSON.stringify({
-        model: 'llama-3.1-70b-versatile', // Modello potente e veloce
+        model: 'llama-3.3-70b-versatile', // Modello potente e veloce
         messages: [
           {
             role: 'system',
